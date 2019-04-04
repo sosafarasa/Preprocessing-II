@@ -169,7 +169,8 @@ img {
   margin: 0 auto;
 }
 header {
-  width: 980px;
+  max-width: 980px;
+  width: 100%;
   padding: 24px 90px;
   border-bottom: 2px dashed #C0C0C0;
   margin: 0 auto;
@@ -177,16 +178,16 @@ header {
   justify-content: space-between;
   align-items: center;
 }
-header nav {
-  justify-content: space-around;
-}
 header nav a {
   color: black;
   text-decoration: none;
+  font-size: 1.6rem;
 }
 .footer {
+  max-width: 980px;
   width: 100%;
   border-top: 2px dashed silver;
+  margin: 0 auto;
   background: #FFEBCD;
 }
 .footer p {
@@ -197,10 +198,10 @@ header nav a {
 }
 .home .top-content {
   border-bottom: 2px dashed #C0C0C0;
-  padding-bottom: 11px;
+  padding-bottom: 10px;
 }
 .home .top-content img {
-  margin-bottom: 19px;
+  margin-bottom: 20px;
 }
 .home .content-section {
   margin: 30px 0;
@@ -247,4 +248,15 @@ header nav a {
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+.home .content-pick .destination .btn {
+  width: 83%;
+  height: 45px;
+  font-size: 1.9rem;
+  background: #17A2B8;
+  border-radius: 15px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
